@@ -4,7 +4,7 @@ import Combine
 var subscriptions = Set<AnyCancellable>()
 
 //https://github.com/kodecocodes/comb-materials/blob/editions/3.0/04-filtering-operators/projects/challenge/Final.playground/Contents.swift
-//使用各种过滤方法获得单行的结果 2023-03-14(Tue) 10:27:06
+//使用各种过滤方法获得单行的结果  2023-03-14(Tue) 10:27:06
 example(of: "Filtering One Hundred Numbers") {
     let numberPublisher = (1...100).publisher
     
